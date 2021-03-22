@@ -18,7 +18,7 @@ public class UserDto {
     
     private long id;
     
-    @NotBlank(message = "Propery 'email' cannot be empty")
+    @NotBlank(message = "Property 'email' cannot be empty")
     private String email;
     
     @NotBlank(message = "Property 'password' cannot be empty")
