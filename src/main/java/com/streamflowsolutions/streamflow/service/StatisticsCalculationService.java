@@ -8,9 +8,11 @@ public class StatisticsCalculationService {
     public int calcViews(String period) {
         return 0;
     }
-    public int calcSubscribers(User user) {
+
+    public int calcSubscribers(String period) {
         return 0;
     }
+
     public int calcUsers(String period) {
         return 0;
     }
@@ -19,19 +21,19 @@ public class StatisticsCalculationService {
         return 0;
     }
 
-    public int calcVotes(Video video) {
+    public int calcVotes(String period) {
         return 0;
     }
 
-    public int calcComments(Video video) {
+    public int calcComments(String period) {
         return 0;
     }
 
-    public int calcVideos(User user) {
+    public int calcVideos(String period) {
         return 0;
     }
 
-    public List<String> calcTopViewerCountries() {
+    public List<String> calcTopViewerCountries(String period) {
         return null;
     }
 }
