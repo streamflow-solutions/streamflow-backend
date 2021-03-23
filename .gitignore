@@ -322,3 +322,4 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/java,java-web,maven,windows,macos,linux,intellij,netbeans,eclipse,vim,vscode
+/src/
